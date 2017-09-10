@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1c20d92f-9ea4-40af-a11c-3278d536a2bb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JH1/testfile1.txt" afterPath="$PROJECT_DIR$/out/production/JH1/testfile1.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reading_with_exceptions/Reading_With_Exceptions.java" afterPath="$PROJECT_DIR$/src/reading_with_exceptions/Reading_With_Exceptions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testfile1.txt" afterPath="$PROJECT_DIR$/src/testfile1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reading_with_exceptions/UnitTests.java" afterPath="$PROJECT_DIR$/src/reading_with_exceptions/UnitTests.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,8 +43,8 @@
       <file leaf-file-name="Reading_With_Exceptions.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/reading_with_exceptions/Reading_With_Exceptions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="65" column="47" lean-forward="false" selection-start-line="65" selection-start-column="47" selection-end-line="65" selection-end-column="47" />
+            <state relative-caret-position="291">
+              <caret line="60" column="29" lean-forward="false" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,11 +55,21 @@
       <file leaf-file-name="UnitTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/reading_with_exceptions/UnitTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+            <state relative-caret-position="396">
+              <caret line="22" column="47" lean-forward="false" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="file.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/file.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -86,8 +95,8 @@
         <option value="$PROJECT_DIR$/src/reading_with_exceptions/testfile1.txt" />
         <option value="$PROJECT_DIR$/src/reading_with_exceptions/ReadingWithExceptionsUnitTests.java" />
         <option value="$PROJECT_DIR$/src/testfile1.txt" />
-        <option value="$PROJECT_DIR$/src/reading_with_exceptions/UnitTests.java" />
         <option value="$PROJECT_DIR$/src/reading_with_exceptions/Reading_With_Exceptions.java" />
+        <option value="$PROJECT_DIR$/src/reading_with_exceptions/UnitTests.java" />
       </list>
     </option>
   </component>
@@ -696,44 +705,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1505083479988</updated>
-      <workItem from="1505083481397" duration="3651000" />
+      <workItem from="1505083481397" duration="3970000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UnitTests - 2017.09.10 at 19h 38m 59s.xml">
-      <configuration name="UnitTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UnitTests - 2017.09.10 at 19h 41m 39s.xml">
-      <configuration name="UnitTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UnitTests_firstTest - 2017.09.10 at 19h 39m 22s.xml">
-      <configuration name="UnitTests.firstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UnitTests_firstTest - 2017.09.10 at 19h 40m 36s.xml">
-      <configuration name="UnitTests.firstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UnitTests_firstTest - 2017.09.10 at 19h 40m 47s.xml">
-      <configuration name="UnitTests.firstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UnitTests_firstTest - 2017.09.10 at 19h 43m 01s.xml">
-      <configuration name="UnitTests.firstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UnitTests_firstTest - 2017.09.10 at 19h 43m 14s.xml">
-      <configuration name="UnitTests.firstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UnitTests_firstTest - 2017.09.10 at 19h 44m 11s.xml">
-      <configuration name="UnitTests.firstTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UnitTests_firstTest - 2017.09.10 at 19h 46m 34s.xml">
       <configuration name="UnitTests.firstTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="UnitTests_firstTest - 2017.09.10 at 19h 46m 57s.xml">
       <configuration name="UnitTests.firstTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UnitTests_firstTest - 2017.09.10 at 19h 47m 22s.xml">
+      <configuration name="UnitTests.firstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnitTests_firstTest - 2017.09.10 at 19h 51m 22s.xml">
+      <configuration name="UnitTests.firstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnitTests_firstTest - 2017.09.10 at 19h 51m 33s.xml">
+      <configuration name="UnitTests.firstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnitTests_firstTest - 2017.09.10 at 19h 53m 10s.xml">
+      <configuration name="UnitTests.firstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnitTests_firstTest - 2017.09.10 at 19h 53m 33s.xml">
+      <configuration name="UnitTests.firstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnitTests_firstTest - 2017.09.10 at 19h 53m 45s.xml">
+      <configuration name="UnitTests.firstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnitTests_firstTest - 2017.09.10 at 19h 54m 45s.xml">
+      <configuration name="UnitTests.firstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnitTests_firstTest - 2017.09.10 at 19h 54m 58s.xml">
+      <configuration name="UnitTests.firstTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3651000" />
+    <option name="totallyTimeSpent" value="3970000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1023" extended-state="6" />
@@ -748,13 +757,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32985258" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22727273" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -795,14 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/file.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -835,10 +836,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/file.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/reading_with_exceptions/Reading_With_Exceptions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="65" column="47" lean-forward="false" selection-start-line="65" selection-start-column="47" selection-end-line="65" selection-end-column="47" />
+        <state relative-caret-position="291">
+          <caret line="60" column="29" lean-forward="false" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -847,8 +856,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/reading_with_exceptions/UnitTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        <state relative-caret-position="396">
+          <caret line="22" column="47" lean-forward="false" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

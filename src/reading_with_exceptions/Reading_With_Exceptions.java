@@ -20,6 +20,32 @@ public class Reading_With_Exceptions {
         }
     }
 
+    static String extractTheTitleOfTheFile(String inputFileName) throws IOException {
+        String title = "";
+
+        String fileName = inputFileName;
+
+        BufferedReader bufferedReader = null;
+        FileReader fileReader = null;
+
+        fileReader = new FileReader(fileName);
+        bufferedReader = new BufferedReader(fileReader);
+
+        String currentLine;
+        bufferedReader.mark(1);
+        title = bufferedReader.readLine();
+
+        bufferedReader.reset();
+        while ((currentLine = bufferedReader.readLine()) != null) {
+            System.out.println(currentLine);
+
+        }
+        int locationOftxt = (title.indexOf(".txt") + 4);
+        title = title.substring(0, locationOftxt);
+
+        return title;
+    }
+
     void process(String inputFilename) throws IOException {
         // Here is where your work goes ... Steps that you will need to do:
 
@@ -36,36 +62,12 @@ public class Reading_With_Exceptions {
 
         String outputTitleName = extractTheTitleOfTheFile(inputFilename);
 
-
         // 3.) Using hasNextInt and nextInt, carefully read the count integer.
-
 
         // I recommend -1 for a count value if it is bad to indicate reading ALL
         // 4.) Use copyNumbers method described below to complete the job
         // 5.) Close Scanner and PrintStream objects
         // 6.) Call printToScreen to copy the output file to the screen
-    }
-
-    static String extractTheTitleOfTheFile(String inputFileName) throws IOException {
-        String title = "";
-
-        String fileName = inputFileName;
-
-        BufferedReader bufferedReader = null;
-        FileReader fileReader = null;
-
-        fileReader = new FileReader(fileName);
-        bufferedReader = new BufferedReader(fileReader);
-
-        String currentLine;
-        title = bufferedReader.readLine();
-        while((currentLine = bufferedReader.readLine()) != null) {
-            System.out.println(currentLine);
-        }
-        int locationOftxt = (title.indexOf(".txt") + 4);
-        title = title.substring(0,locationOftxt);
-
-        return title;
     }
 
     void copyNumbers(Scanner scan, PrintStream ps, int

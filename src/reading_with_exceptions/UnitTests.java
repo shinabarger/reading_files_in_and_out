@@ -13,9 +13,16 @@ import static org.junit.Assert.assertEquals;
 public class UnitTests {
 
     @Test
-    public void firstTest() throws IOException {
+    public void testFirstTitle() throws IOException {
         String expected = "something.txt";
         String actual = Reading_With_Exceptions.extractTheTitleOfTheFile("src/testfile1.txt");
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void testTitleExtractionUsingfiletxt() throws IOException {
+        String expected = "MyOutput1.txt";
+        String actual = Reading_With_Exceptions.extractTheTitleOfTheFile("src/file.txt");
         assertEquals(expected, actual);
     }
 
