@@ -58,11 +58,12 @@ public class Reading_With_Exceptions {
         bufferedReader = new BufferedReader(fileReader);
 
         String currentLine;
-
+        title = bufferedReader.readLine();
         while((currentLine = bufferedReader.readLine()) != null) {
             System.out.println(currentLine);
-            title = String.valueOf(currentLine);
         }
+        int locationOftxt = (title.indexOf(".txt") + 4);
+        title = title.substring(0,locationOftxt);
 
         return title;
     }
