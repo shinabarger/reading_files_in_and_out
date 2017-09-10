@@ -26,4 +26,11 @@ public class UnitTests {
         assertEquals(expected, actual);
     }
 
+    @Test
+    public void testTitleExtractionUsingfile2txt() throws IOException {
+        String expected = "niceJob.txt";
+        String actual = Reading_With_Exceptions.extractTheTitleOfTheFile("src/file2.txt");
+        assertEquals(expected, actual);
+    }
+
 }
