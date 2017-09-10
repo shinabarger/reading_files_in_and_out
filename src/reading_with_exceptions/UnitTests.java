@@ -33,4 +33,11 @@ public class UnitTests {
         assertEquals(expected, actual);
     }
 
+    @Test
+    public void testTitleExtractionUsingfile3txt() throws IOException {
+        String expected = "OneLastOutput.txt";
+        String actual = Reading_With_Exceptions.extractTheTitleOfTheFile("src/file3.txt");
+        assertEquals(expected, actual);
+    }
+
 }
