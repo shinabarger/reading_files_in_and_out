@@ -2,6 +2,7 @@ package reading_with_exceptions;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -27,6 +28,32 @@ public class Reading_With_Exceptions {
             System.out.println("\n\n=========== Processing " + args[i] + " ==========\n");
             readingWithExceptions.process(args[i]);
         }
+
+
+
+    }
+
+    void process(String inputFilename) throws IOException {
+        // Here is where your work goes ... Steps that you will need to do:
+
+        // 1.) Create a Scanner from the inputFilename. Catch exceptions from errors.
+        File file = new File(inputFilename);
+        Scanner scan = new Scanner(file);
+
+        // 2.) Read the first String from the file and use it
+        // to create a PrintStream catching appropriate exceptions
+        PrintStream printStreamOut = new PrintStream(file);
+
+        String outputTitleName = extractTheTitleOfTheFile(inputFilename);
+
+        writeToFile(inputFilename, outputTitleName);
+
+        // 3.) Using hasNextInt and nextInt, carefully read the count integer.
+
+        // I recommend -1 for a count value if it is bad to indicate reading ALL
+        // 4.) Use copyNumbers method described below to complete the job
+        // 5.) Close Scanner and PrintStream objects
+        // 6.) Call printToScreen to copy the output file to the screen
     }
 
     static String extractTheTitleOfTheFile(String inputFileName) throws IOException {
@@ -94,32 +121,45 @@ public class Reading_With_Exceptions {
 
     }
 
+    static String writeToFile(String inputFilename, String outputTitleName) throws IOException {
 
+        BufferedWriter bufferedWriter = null;
+        FileWriter fileWriter = null;
 
-    void process(String inputFilename) throws IOException {
-        // Here is where your work goes ... Steps that you will need to do:
+        String content = null;
+        try {
+            String numbers = extractAllTheNumbersOfTheFile(inputFilename);
+            int[] numbersToPrintArray = turnTheNumbersIntoAProperList(numbers);
+            String numbersToPrintOut = Arrays.toString(numbersToPrintArray);
+            content = (outputTitleName + " " + numbersToPrintOut);
 
-        // 1.) Create a Scanner from the inputFilename. Catch exceptions from errors.
-        File file = new File(inputFilename);
-        Scanner scan = new Scanner(file);
+            fileWriter = new FileWriter(outputTitleName);
+            bufferedWriter = new BufferedWriter(fileWriter);
+            bufferedWriter.write(content);
+            System.out.println("Done printing.");
 
-        // 2.) Read the first String from the file and use it
-        // to create a PrintStream catching appropriate exceptions
-        PrintStream printStreamOut = new PrintStream(file);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
-        //create a loop to extract just the letters before .txt & the .txt part of the thing and assign it to a string
-        //then assign that string and have tho output stream be named whatever that string
+        finally {
 
-        String outputTitleName = extractTheTitleOfTheFile(inputFilename);
+            try {
 
-        // 3.) Using hasNextInt and nextInt, carefully read the count integer.
+                if (bufferedWriter != null)
+                    bufferedWriter.close();
 
-        // I recommend -1 for a count value if it is bad to indicate reading ALL
-        // 4.) Use copyNumbers method described below to complete the job
-        // 5.) Close Scanner and PrintStream objects
-        // 6.) Call printToScreen to copy the output file to the screen
+                if (fileWriter != null)
+                    fileWriter.close();
+
+            } catch (IOException ex) {
+
+                ex.printStackTrace();
+
+            }
+        }
+        return content;
     }
-
     void copyNumbers(Scanner scan, PrintStream ps, int
             numIntsToRead) {
         // hasNext() can be used to see if the scan object still has data
