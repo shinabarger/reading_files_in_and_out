@@ -1,6 +1,7 @@
 package reading_with_exceptions;
 
 import java.io.*;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
@@ -40,7 +41,7 @@ public class Reading_With_Exceptions {
         bufferedReader = new BufferedReader(fileReader);
 
         String currentLine;
-        bufferedReader.mark(0);
+        bufferedReader.mark(1);
         title = bufferedReader.readLine();
 
         bufferedReader.reset();
@@ -72,11 +73,27 @@ public class Reading_With_Exceptions {
             currentLine = bufferedReader.readLine();
         }
         String numberToPrintOut = stringBuilder.toString();
-        int indexOftxt = (numberToPrintOut.indexOf('.') + 5);
+        int indexOftxt = (numberToPrintOut.indexOf(".txt") + 5);
         numberToPrintOut = numberToPrintOut.substring(indexOftxt);
-
         return  numberToPrintOut;
     }
+
+    static int[] turnTheNumbersIntoAProperList(String numbers) {
+
+        ArrayList<Integer> listOfNumbers = new ArrayList<Integer>();
+
+        String[] numberArray = numbers.split(" ");
+        int[] numbersArray = new int[numberArray.length];
+
+        for (int i = 0; i < numberArray.length; i++) {
+            int number = Integer.parseInt(numberArray[i]);
+            numbersArray[i] = number;
+
+        }
+        return numbersArray;
+
+    }
+
 
 
     void process(String inputFilename) throws IOException {
