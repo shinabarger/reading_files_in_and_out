@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c20d92f-9ea4-40af-a11c-3278d536a2bb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reading_with_exceptions/Reading_With_Exceptions.java" afterPath="$PROJECT_DIR$/src/reading_with_exceptions/Reading_With_Exceptions.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reading_with_exceptions/UnitTests.java" afterPath="$PROJECT_DIR$/src/reading_with_exceptions/UnitTests.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,7 +31,7 @@
       <file leaf-file-name="Reading_With_Exceptions.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/reading_with_exceptions/Reading_With_Exceptions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="-127">
               <caret line="74" column="59" lean-forward="false" selection-start-line="74" selection-start-column="59" selection-end-line="74" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -45,8 +43,8 @@
       <file leaf-file-name="UnitTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/reading_with_exceptions/UnitTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-235">
-              <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+            <state relative-caret-position="251">
+              <caret line="51" column="139" lean-forward="false" selection-start-line="51" selection-start-column="139" selection-end-line="51" selection-end-column="139" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,8 +83,8 @@
         <option value="$PROJECT_DIR$/src/reading_with_exceptions/testfile1.txt" />
         <option value="$PROJECT_DIR$/src/reading_with_exceptions/ReadingWithExceptionsUnitTests.java" />
         <option value="$PROJECT_DIR$/src/testfile1.txt" />
-        <option value="$PROJECT_DIR$/src/reading_with_exceptions/UnitTests.java" />
         <option value="$PROJECT_DIR$/src/reading_with_exceptions/Reading_With_Exceptions.java" />
+        <option value="$PROJECT_DIR$/src/reading_with_exceptions/UnitTests.java" />
       </list>
     </option>
   </component>
@@ -226,7 +224,7 @@
       <recent name="$PROJECT_DIR$/src/reading_with_exceptions" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UnitTests.extractNumbers">
+  <component name="RunManager" selected="JUnit.UnitTests.extractNumbersFromfiletxt">
     <configuration default="false" name="UnitTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -241,32 +239,6 @@
       <option name="MAIN_CLASS_NAME" value="reading_with_exceptions.UnitTests" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="UnitTests.testTitleExtractionUsingfile3txt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="reading_with_exceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="JH1" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="reading_with_exceptions" />
-      <option name="MAIN_CLASS_NAME" value="reading_with_exceptions.UnitTests" />
-      <option name="METHOD_NAME" value="testTitleExtractionUsingfile3txt" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -344,6 +316,32 @@
       <option name="PACKAGE_NAME" value="reading_with_exceptions" />
       <option name="MAIN_CLASS_NAME" value="reading_with_exceptions.UnitTests" />
       <option name="METHOD_NAME" value="testTitleExtractionUsingfiletxt" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="UnitTests.extractNumbersFromfiletxt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="reading_with_exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JH1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="reading_with_exceptions" />
+      <option name="MAIN_CLASS_NAME" value="reading_with_exceptions.UnitTests" />
+      <option name="METHOD_NAME" value="extractNumbersFromfiletxt" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -732,18 +730,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.UnitTests" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.UnitTests.testTitleExtractionUsingfile3txt" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.UnitTests.extractNumbers" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.UnitTests.testFirstTitle" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.UnitTests.testTitleExtractionUsingfiletxt" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.UnitTests.extractNumbers" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.UnitTests.testFirstTitle" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.UnitTests.testTitleExtractionUsingfiletxt" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.UnitTests.extractNumbersFromfiletxt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.UnitTests.extractNumbers" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.UnitTests.testFirstTitle" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.UnitTests.testTitleExtractionUsingfiletxt" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.UnitTests" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.UnitTests.testTitleExtractionUsingfile3txt" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.UnitTests.extractNumbersFromfiletxt" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UnitTests.extractNumbers" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.UnitTests.testFirstTitle" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.UnitTests.testTitleExtractionUsingfiletxt" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.UnitTests" />
       </list>
     </recent_temporary>
   </component>
@@ -757,7 +755,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1505083479988</updated>
-      <workItem from="1505083481397" duration="6054000" />
+      <workItem from="1505083481397" duration="6115000" />
     </task>
     <servers />
   </component>
@@ -780,21 +778,21 @@
     <history-entry file="UnitTests_extractNumbers - 2017.09.10 at 20h 31m 27s.xml">
       <configuration name="UnitTests.extractNumbers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnitTests_testFirstTitle - 2017.09.10 at 20h 26m 35s.xml">
-      <configuration name="UnitTests.testFirstTitle" configurationId="JUnit" />
+    <history-entry file="UnitTests_extractNumbers - 2017.09.10 at 20h 31m 42s.xml">
+      <configuration name="UnitTests.extractNumbers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnitTests_testFirstTitle - 2017.09.10 at 20h 26m 51s.xml">
-      <configuration name="UnitTests.testFirstTitle" configurationId="JUnit" />
+    <history-entry file="UnitTests_extractNumbersFromfiletxt - 2017.09.10 at 20h 32m 15s.xml">
+      <configuration name="UnitTests.extractNumbersFromfiletxt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnitTests_extractNumbersFromfiletxt - 2017.09.10 at 20h 32m 28s.xml">
+      <configuration name="UnitTests.extractNumbersFromfiletxt" configurationId="JUnit" />
     </history-entry>
     <history-entry file="UnitTests_testFirstTitle - 2017.09.10 at 20h 27m 16s.xml">
       <configuration name="UnitTests.testFirstTitle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnitTests_testTitleExtractionUsingfiletxt - 2017.09.10 at 20h 26m 21s.xml">
-      <configuration name="UnitTests.testTitleExtractionUsingfiletxt" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6054000" />
+    <option name="totallyTimeSpent" value="6115000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1023" extended-state="6" />
@@ -906,7 +904,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/reading_with_exceptions/Reading_With_Exceptions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="-127">
           <caret line="74" column="59" lean-forward="false" selection-start-line="74" selection-start-column="59" selection-end-line="74" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -916,8 +914,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/reading_with_exceptions/UnitTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-235">
-          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        <state relative-caret-position="251">
+          <caret line="51" column="139" lean-forward="false" selection-start-line="51" selection-start-column="139" selection-end-line="51" selection-end-column="139" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
