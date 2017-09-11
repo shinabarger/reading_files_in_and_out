@@ -54,4 +54,11 @@ public class UnitTests {
         assertEquals(expected, actual);
     }
 
+    @Test
+    public void extractNumbersFromfile2txt() throws IOException {
+        String expected = "4020 1 x 5 7 45 1 2 3 4 5 6 7 8 9 77 88 99 23 3456";
+        String actual = Reading_With_Exceptions.extractAllTheNumbersOfTheFile("src/file2.txt");
+        assertEquals(expected, actual);
+    }
+
 }
