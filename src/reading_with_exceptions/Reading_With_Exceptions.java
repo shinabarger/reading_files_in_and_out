@@ -3,6 +3,14 @@ package reading_with_exceptions;
 import java.io.*;
 import java.util.Scanner;
 
+/**
+ * Made by David Shinabarge for an assignment for a class.
+ *
+ * NOTE: Some of this code is copypasta from the assignment.
+ *
+ *
+ */
+
 public class Reading_With_Exceptions {
     // The following routine is called to complete the job of copying integers read all to
     // the output file:
@@ -32,7 +40,7 @@ public class Reading_With_Exceptions {
         bufferedReader = new BufferedReader(fileReader);
 
         String currentLine;
-        bufferedReader.mark(1);
+        bufferedReader.mark(0);
         title = bufferedReader.readLine();
 
         bufferedReader.reset();
@@ -45,6 +53,31 @@ public class Reading_With_Exceptions {
 
         return title;
     }
+
+    static String extractAllTheNumbersOfTheFile(String inputFileName) throws IOException {
+
+        String fileName = inputFileName;
+
+        BufferedReader bufferedReader = null;
+        FileReader fileReader = null;
+
+        fileReader = new FileReader(fileName);
+        bufferedReader = new BufferedReader(fileReader);
+
+        String currentLine = "";
+        StringBuilder stringBuilder = new StringBuilder();
+
+        while(currentLine != null) {
+            stringBuilder.append(currentLine);
+            currentLine = bufferedReader.readLine();
+        }
+        String numberToPrintOut = stringBuilder.toString();
+        int indexOftxt = (numberToPrintOut.indexOf('.') + 5);
+        numberToPrintOut = numberToPrintOut.substring(indexOftxt);
+
+        return  numberToPrintOut;
+    }
+
 
     void process(String inputFilename) throws IOException {
         // Here is where your work goes ... Steps that you will need to do:
