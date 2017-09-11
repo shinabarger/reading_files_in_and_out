@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1c20d92f-9ea4-40af-a11c-3278d536a2bb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/something.txt" afterPath="$PROJECT_DIR$/something.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reading_with_exceptions/Reading_With_Exceptions.java" afterPath="$PROJECT_DIR$/src/reading_with_exceptions/Reading_With_Exceptions.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reading_with_exceptions/UnitTests.java" afterPath="$PROJECT_DIR$/src/reading_with_exceptions/UnitTests.java" />
     </list>
@@ -23,7 +24,7 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="90">
               <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
               <folding />
             </state>
@@ -33,8 +34,8 @@
       <file leaf-file-name="Reading_With_Exceptions.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/reading_with_exceptions/Reading_With_Exceptions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="136" column="45" lean-forward="false" selection-start-line="136" selection-start-column="45" selection-end-line="136" selection-end-column="45" />
+            <state relative-caret-position="197">
+              <caret line="137" column="47" lean-forward="false" selection-start-line="137" selection-start-column="47" selection-end-line="137" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,8 +46,8 @@
       <file leaf-file-name="UnitTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/reading_with_exceptions/UnitTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="85" column="46" lean-forward="false" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
+            <state relative-caret-position="251">
+              <caret line="85" column="45" lean-forward="false" selection-start-line="85" selection-start-column="45" selection-end-line="85" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,8 +119,8 @@
         <option value="$PROJECT_DIR$/src/file2.txt" />
         <option value="$PROJECT_DIR$/src/file.txt" />
         <option value="$PROJECT_DIR$/src/file3.txt" />
-        <option value="$PROJECT_DIR$/src/reading_with_exceptions/UnitTests.java" />
         <option value="$PROJECT_DIR$/src/reading_with_exceptions/Reading_With_Exceptions.java" />
+        <option value="$PROJECT_DIR$/src/reading_with_exceptions/UnitTests.java" />
       </list>
     </option>
   </component>
@@ -798,44 +799,44 @@
       <option name="presentableId" value="Default" />
       <updated>1505083479988</updated>
       <workItem from="1505083481397" duration="8788000" />
-      <workItem from="1505147051924" duration="1240000" />
+      <workItem from="1505147051924" duration="3117000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UnitTests_extractNumbersFromfile3txt - 2017.09.10 at 21h 02m 27s.xml">
-      <configuration name="UnitTests.extractNumbersFromfile3txt" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UnitTests_testThatArrayIsWorkingCorrectly - 2017.09.10 at 21h 09m 52s.xml">
-      <configuration name="UnitTests.testThatArrayIsWorkingCorrectly" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UnitTests_testThatArrayIsWorkingCorrectly - 2017.09.10 at 21h 18m 34s.xml">
-      <configuration name="UnitTests.testThatArrayIsWorkingCorrectly" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UnitTests_testThatWritesToFile - 2017.09.11 at 12h 41m 08s.xml">
+    <history-entry file="UnitTests_testThatWritesToFile - 2017.09.11 at 12h 47m 31s.xml">
       <configuration name="UnitTests.testThatWritesToFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnitTests_testThatWritesToFile - 2017.09.11 at 12h 41m 44s.xml">
+    <history-entry file="UnitTests_testThatWritesToFile - 2017.09.11 at 12h 47m 41s.xml">
       <configuration name="UnitTests.testThatWritesToFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnitTests_testThatWritesToFile - 2017.09.11 at 12h 41m 55s.xml">
+    <history-entry file="UnitTests_testThatWritesToFile - 2017.09.11 at 12h 48m 16s.xml">
       <configuration name="UnitTests.testThatWritesToFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnitTests_testThatWritesToFile - 2017.09.11 at 12h 42m 12s.xml">
+    <history-entry file="UnitTests_testThatWritesToFile - 2017.09.11 at 13h 00m 49s.xml">
       <configuration name="UnitTests.testThatWritesToFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnitTests_testThatWritesToFile - 2017.09.11 at 12h 43m 22s.xml">
+    <history-entry file="UnitTests_testThatWritesToFile - 2017.09.11 at 13h 02m 08s.xml">
       <configuration name="UnitTests.testThatWritesToFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnitTests_testThatWritesToFile - 2017.09.11 at 12h 44m 34s.xml">
+    <history-entry file="UnitTests_testThatWritesToFile - 2017.09.11 at 13h 02m 48s.xml">
       <configuration name="UnitTests.testThatWritesToFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnitTests_testThatWritesToFile - 2017.09.11 at 12h 44m 52s.xml">
+    <history-entry file="UnitTests_testThatWritesToFile - 2017.09.11 at 13h 03m 47s.xml">
+      <configuration name="UnitTests.testThatWritesToFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnitTests_testThatWritesToFile - 2017.09.11 at 13h 04m 52s.xml">
+      <configuration name="UnitTests.testThatWritesToFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnitTests_testThatWritesToFile - 2017.09.11 at 13h 16m 01s.xml">
+      <configuration name="UnitTests.testThatWritesToFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnitTests_testThatWritesToFile - 2017.09.11 at 13h 16m 33s.xml">
       <configuration name="UnitTests.testThatWritesToFile" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10028000" />
+    <option name="totallyTimeSpent" value="11905000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1023" extended-state="6" />
@@ -851,12 +852,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42197803" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42197803" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32985258" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985258" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -880,7 +881,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -949,14 +950,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/file3.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -988,6 +981,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/something.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -998,8 +999,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/reading_with_exceptions/Reading_With_Exceptions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="136" column="45" lean-forward="false" selection-start-line="136" selection-start-column="45" selection-end-line="136" selection-end-column="45" />
+        <state relative-caret-position="197">
+          <caret line="137" column="47" lean-forward="false" selection-start-line="137" selection-start-column="47" selection-end-line="137" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1008,8 +1009,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/reading_with_exceptions/UnitTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="85" column="46" lean-forward="false" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
+        <state relative-caret-position="251">
+          <caret line="85" column="45" lean-forward="false" selection-start-line="85" selection-start-column="45" selection-end-line="85" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

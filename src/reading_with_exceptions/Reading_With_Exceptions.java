@@ -2,7 +2,6 @@ package reading_with_exceptions;
 
 import java.io.*;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -127,10 +126,27 @@ public class Reading_With_Exceptions {
         FileWriter fileWriter = null;
 
         String content = null;
+        StringBuilder totalMessage = new StringBuilder();
+        int i = 0;
+        int upperBound = 10;
+
         try {
             String numbers = extractAllTheNumbersOfTheFile(inputFilename);
             int[] numbersToPrintArray = turnTheNumbersIntoAProperList(numbers);
-            String numbersToPrintOut = Arrays.toString(numbersToPrintArray);
+
+
+           while(i < numbersToPrintArray.length) {
+               totalMessage.append(numbersToPrintArray[i] + " ");
+               if (i >= 9) {
+                   totalMessage.append("\n");
+                   i = -1;
+               }
+               i++;
+           }
+
+           String numbersToPrintOut = String.valueOf(totalMessage);
+
+
             content = (outputTitleName + " " + numbersToPrintOut);
 
             fileWriter = new FileWriter(outputTitleName);

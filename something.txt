@@ -1,1 +1,1 @@
-something.txt [123]
+something.txt 123 

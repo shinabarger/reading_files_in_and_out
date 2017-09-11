@@ -83,7 +83,7 @@ public class UnitTests {
     @Test
     public void testThatWritesToFile() throws IOException {
         //will have to come back to this to fix the x that is getting pushed through. Annoying. Have to add validation.
-        String expected = "something.txt [123]";
+        String expected = "something.txt 123 ";
         String actual = Reading_With_Exceptions.writeToFile("src/testfile1.txt", "something.txt");
         assertEquals(expected, actual);
     }
